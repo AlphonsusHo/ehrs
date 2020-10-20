@@ -1,0 +1,160 @@
+{
+    "archetype_node_id": "openEHR-EHR-ADMIN_ENTRY.high_complexity_procedures_sus.v1",
+    "type": "ADMIN_ENTRY",
+    "name": {
+        "value": "HCPA"
+    },
+    "archetype_details": {
+        "archetype_id": {
+            "value": "openEHR-EHR-ADMIN_ENTRY.high_complexity_procedures_sus.v1"
+        },
+        "template_id": {
+            "value": "f57cc3bf-ecb6-492b-8549-a9d12d44679d"
+        },
+        "rm_version": "1.0.2"
+    },
+    "language": {
+        "terminology_id": {
+            "value": "ISO_639-1"
+        },
+        "code_string": "en"
+    },
+    "encoding": {
+        "terminology_id": {
+            "value": "IANA_character-sets"
+        },
+        "code_string": "UTF-8"
+    },
+    "subject": {
+        "type": "PARTY_SELF",
+        "external_ref": {
+            "id": {
+                "type": "HIER_OBJECT_ID",
+                "value": "1.1.1.4951539955100.5499100519956.9710110152525.7495249519857.9857495451975153"
+            },
+            "type": "PARTY"
+        }
+    },
+    "data": {
+        "archetype_node_id": "at0001",
+        "type": "ITEM_TREE",
+        "name": {
+            "value": "components"
+        },
+        "items": [
+            {
+                "archetype_node_id": "at0023",
+                "type": "CLUSTER",
+                "name": {
+                    "value": "General data"
+                },
+                "items": [
+                    {
+                        "archetype_node_id": "at0009",
+                        "type": "ELEMENT",
+                        "name": {
+                            "value": "issue date"
+                        },
+                        "value": {
+                            "type": "DV_DATE",
+                            "value": "2009-08-01TZ"
+                        }
+                    },
+                    {
+                        "archetype_node_id": "at0010",
+                        "type": "ELEMENT",
+                        "name": {
+                            "value": "reason for encounter"
+                        },
+                        "null_flavour": {
+                            "value": "unknown",
+                            "defining_code": {
+                                "terminology_id": {
+                                    "value": "openehr"
+                                },
+                                "code_string": "253"
+                            }
+                        }
+                    },
+                    {
+                        "archetype_node_id": "at0011",
+                        "type": "ELEMENT",
+                        "name": {
+                            "value": "healthcare unit"
+                        },
+                        "null_flavour": {
+                            "value": "unknown",
+                            "defining_code": {
+                                "terminology_id": {
+                                    "value": "openehr"
+                                },
+                                "code_string": "253"
+                            }
+                        }
+                    },
+                    {
+                        "archetype_node_id": "at0028",
+                        "type": "ELEMENT",
+                        "name": {
+                            "value": "State"
+                        },
+                        "value": {
+                            "type": "DV_CODED_TEXT",
+                            "value": "SÃO PAULO",
+                            "defining_code": {
+                                "terminology_id": {
+                                    "value": "IBGE"
+                                },
+                                "code_string": "SP"
+                            }
+                        }
+                    },
+                    {
+                        "archetype_node_id": "at0012",
+                        "type": "ELEMENT",
+                        "name": {
+                            "value": "patient age"
+                        },
+                        "value": {
+                            "type": "DV_COUNT",
+                            "accuracy": "0.0",
+                            "magnitude": "49"
+                        }
+                    }
+                ]
+            },
+            {
+                "archetype_node_id": "at0018",
+                "type": "CLUSTER",
+                "name": {
+                    "value": "transplantation"
+                },
+                "items": [
+                    {
+                        "archetype_node_id": "at0029",
+                        "type": "ELEMENT",
+                        "name": {
+                            "value": "indicator of transplantation"
+                        },
+                        "value": {
+                            "type": "DV_BOOLEAN",
+                            "value": "false"
+                        }
+                    },
+                    {
+                        "archetype_node_id": "at0022",
+                        "type": "ELEMENT",
+                        "name": {
+                            "value": "number of transplantations"
+                        },
+                        "value": {
+                            "type": "DV_COUNT",
+                            "accuracy": "0.0",
+                            "magnitude": "0"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

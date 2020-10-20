@@ -1,0 +1,85 @@
+{
+    "archetype_node_id": "openEHR-EHR-ACTION.procedure-sus.v1",
+    "type": "ACTION",
+    "name": {
+        "value": "Procedure undertaken"
+    },
+    "archetype_details": {
+        "archetype_id": {
+            "value": "openEHR-EHR-ACTION.procedure-sus.v1"
+        },
+        "template_id": {
+            "value": "f57cc3bf-ecb6-492b-8549-a9d12d44679d"
+        },
+        "rm_version": "1.0.2"
+    },
+    "language": {
+        "terminology_id": {
+            "value": "ISO_639-1"
+        },
+        "code_string": "en"
+    },
+    "encoding": {
+        "terminology_id": {
+            "value": "IANA_character-sets"
+        },
+        "code_string": "UTF-8"
+    },
+    "subject": {
+        "type": "PARTY_SELF",
+        "external_ref": {
+            "id": {
+                "type": "HIER_OBJECT_ID",
+                "value": "1.1.1.4951539955100.5499100519956.9710110152525.7495249519857.9857495451975153"
+            },
+            "type": "PARTY"
+        }
+    },
+    "time": {
+        "value": "2017-05-24T15:31:47,417"
+    },
+    "description": {
+        "archetype_node_id": "at0001",
+        "type": "ITEM_TREE",
+        "name": {
+            "value": "Procedure list"
+        },
+        "items": {
+            "archetype_node_id": "at0002",
+            "type": "ELEMENT",
+            "name": {
+                "value": "Procedure"
+            },
+            "value": {
+                "type": "DV_CODED_TEXT",
+                "value": "",
+                "defining_code": {
+                    "terminology_id": {
+                        "value": "SUS"
+                    },
+                    "code_string": "0601180208"
+                }
+            }
+        }
+    },
+    "ism_transition": {
+        "current_state": {
+            "value": "completed",
+            "defining_code": {
+                "terminology_id": {
+                    "value": "openehr"
+                },
+                "code_string": "532"
+            }
+        },
+        "careflow_step": {
+            "value": "Completed",
+            "defining_code": {
+                "terminology_id": {
+                    "value": "local"
+                },
+                "code_string": "at0043"
+            }
+        }
+    }
+}  

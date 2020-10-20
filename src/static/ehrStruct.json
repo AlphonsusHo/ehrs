@@ -1,0 +1,109 @@
+{
+    "uid": {
+        "value": ""
+    },
+    "owner_id": {
+        "id": {
+            "type": "HIER_OBJECT_ID",
+            "value": "1.1.1.4951539955100.5499100519956.9710110152525.7495249519857.9857495451975153"
+        },
+        "namespace": "local",
+        "type": "EHR"
+    },
+    "time_created": {
+        "value": "2017-05-24T15:31:47,466"
+    },
+    "organization": {
+        "value": ""
+    },
+    "versions": {
+        "contribution": {
+            "id": {
+                "type": "HIER_OBJECT_ID",
+                "value": "1.3.1.4951539955100.5499100519956.9710110152525.7495249519857.9857495451975153"
+            },
+            "namespace": "local",
+            "type": "CONTRIBUTION"
+        },
+        "commit_audit": {
+            "system_id": "ehrs",
+            "committer": {
+                "type": "PARTY_IDENTIFIED",
+                "name": ""
+            },
+            "time_committed": {
+                "value": ""
+            },
+            "change_type": {
+                "value": "creation",
+                "defining_code": {
+                    "terminology_id": {
+                        "value": "openehr"
+                    },
+                    "code_string": "249"
+                }
+            },
+            "description": {
+                "value": "creation of composition"
+            }
+        },
+        "uid": {
+            "value": ""
+        },
+        "data": {
+            "archetype_node_id": "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1",
+            "type": "COMPOSITION",
+            "name": {
+                "value": "Outpatient high complexity procedures"
+            },
+            "uid": {
+                "type": "HIER_OBJECT_ID",
+                "value": ""
+            },
+            "archetype_details": {
+                "archetype_id": {
+                    "value": "openEHR-EHR-COMPOSITION.outpatient_high_complexity_procedures.v1"
+                },
+                "template_id": {
+                    "value": "f57cc3bf-ecb6-492b-8549-a9d12d44679d"
+                },
+                "rm_version": "1.0.2"
+            },
+            "language": {
+                "terminology_id": {
+                    "value": "ISO_639-1"
+                },
+                "code_string": "en"
+            },
+            "territory": {
+                "terminology_id": {
+                    "value": "ISO_3166-1"
+                },
+                "code_string": "BR"
+            },
+            "category": {
+                "value": "event",
+                "defining_code": {
+                    "terminology_id": {
+                        "value": "openehr"
+                    },
+                    "code_string": "433"
+                }
+            },
+            "composer": {
+                "type": "PARTY_IDENTIFIED",
+                "name": "Physician"
+            },
+            "content": []
+        },
+        "lifecycle_state": {
+            "value": "",
+            "defining_code": {
+                "terminology_id": {
+                    "value": "openehr"
+                },
+                "code_string": "532"
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "archetype_node_id": "openEHR-EHR-EVALUATION.problem_diagnosis-sus.v1",
+    "type": "EVALUATION",
+    "name": {
+        "value": "Problem/Diagnosis"
+    },
+    "archetype_details": {
+        "archetype_id": {
+            "value": "openEHR-EHR-EVALUATION.problem_diagnosis-sus.v1"
+        },
+        "template_id": {
+            "value": "f57cc3bf-ecb6-492b-8549-a9d12d44679d"
+        },
+        "rm_version": "1.0.2"
+    },
+    "language": {
+        "terminology_id": {
+            "value": "ISO_639-1"
+        },
+        "code_string": "en"
+    },
+    "encoding": {
+        "terminology_id": {
+            "value": "IANA_character-sets"
+        },
+        "code_string": "UTF-8"
+    },
+    "subject": {
+        "type": "PARTY_SELF",
+        "external_ref": {
+            "id": {
+                "type": "HIER_OBJECT_ID",
+                "value": "1.1.1.4951539955100.5499100519956.9710110152525.7495249519857.9857495451975153"
+            },
+            "type": "PARTY"
+        }
+    },
+    "data": {
+        "archetype_node_id": "at0001",
+        "type": "ITEM_TREE",
+        "name": {
+            "value": "structure"
+        },
+        "items": [
+            {
+                "archetype_node_id": "at0002.1",
+                "type": "ELEMENT",
+                "name": {
+                    "value": "Problem"
+                },
+                "value": {
+                    "type": "DV_CODED_TEXT",
+                    "value": "",
+                    "defining_code": {
+                        "terminology_id": {
+                            "value": ""
+                        },
+                        "code_string": "E780"
+                    }
+                }
+            },
+            {
+                "archetype_node_id": "at0.1",
+                "type": "ELEMENT",
+                "name": {
+                    "value": "Secondary Diagnosis"
+                },
+                "value": {
+                    "type": "DV_CODED_TEXT",
+                    "value": "",
+                    "defining_code": {
+                        "terminology_id": {
+                            "value": "CID10"
+                        },
+                        "code_string": "0000"
+                    }
+                }
+            },
+            {
+                "archetype_node_id": "at0.2",
+                "type": "ELEMENT",
+                "name": {
+                    "value": "Associated causes"
+                },
+                "value": {
+                    "type": "DV_CODED_TEXT",
+                    "value": "",
+                    "defining_code": {
+                        "terminology_id": {
+                            "value": "CID10"
+                        },
+                        "code_string": "0000"
+                    }
+                }
+            }
+        ]
+    }
+}
